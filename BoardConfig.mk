@@ -18,6 +18,6 @@ DEVICE_PATH := device/samsung/j2y18lte
 
 # Inherit device-specific board fragments
 include $(DEVICE_PATH)/board/*.mk
-
+include device/qcom/conmon/Android.mk
 # Inherit from the proprietary version
 -include vendor/samsung/j2y18lte/BoardConfigVendor.mk
